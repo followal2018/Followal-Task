@@ -1,0 +1,124 @@
+/* 
+  Keys.strings
+  followal
+
+  Created by Vivek Gadhiya on 17/01/19.
+  Copyright © 2019 Vivek Gadhiya. All rights reserved.
+*/
+
+"appLang" = "appLang";
+"access_token" = "access_token";
+"user_detail" = "user_detail";
+"myProfileDetail" = "myProfileDetail";
+"isUserLogIn" = "isUserLogIn";
+"userId" = "Uid";
+"multiLoginID" = "multiLoginID";
+"uniqueId" = "UniqueId";
+"userData" = "userData";
+"socket_id" = "socket_id";
+"isoCode" = "isoCode";
+"currencyCode" = "currencyCode";
+"recentChatCalled" = "recentChatCalled";
+
+//Key Params
+"LocationShareId" = "LocationShareId";
+"Token" = "Token";
+"Data" = "Data";
+"Latitude" = "Latitude";
+"Longitude" = "Longitude";
+"user_id" = "user_id";
+"userID" = "userID";
+"registerData" = "registerData";
+
+"phoneNumber" = "phoneNumber";
+"phone" = "phone";
+"emailAddress" = "emailAddress";
+"email" = "email";
+"Text" = "Text";
+"Status" = "Status";
+"timeControlStatus" = "timeControlStatus";
+"caption" = "caption";
+"thumbtimeSeconds" = "thumbtimeSeconds";
+"asset" = "asset";
+"url" = "url";
+"thumbTime" = "thumbTime";
+"creationDate" = "creationDate";
+
+"lowerValue" = "lowerValue";
+"upperValue" = "upperValue";
+
+//Server
+"http" = "http";
+
+//Realm Key
+"insertDate" = "insertDate";
+
+
+
+//Album
+"Followal" = "Followal";
+
+//File type
+"pdf" = "pdf";
+"video" = "video";
+"image" = "image";
+"word" = "word";
+"zip" = "zip";
+"excel" = "excel";
+"audio" = "audio";
+"File" = "File";
+"AttachmentFile" = "AttachmentFile";
+"csv" = "csv";
+
+// Job Module
+"RoleType" = "RoleType";
+"isJobAPIUpdate" = "isJobAPIUpdate";
+"isJobDataFound" = "isJobDataFound";
+
+
+
+//JSON
+"ReturnValue" = "ReturnValue";
+"ReturnMsg" = "ReturnMsg";
+
+"ReturnCode" = "ReturnCode";
+"StatusId" = "StatusId";
+"statusid" = "statusid";
+"progress" = "progress";
+"Staustype" = "Staustype";
+"StatusText" = "StatusText";
+"Font" = "Font";
+"Color" = "Color";
+
+
+"Type" = "Type";
+"View" = "View";
+"Like" = "Like";
+"Unlike" = "Unlike";
+"Download" = "Download";
+"ReturnMsg" = "ReturnMsg";
+
+
+//Notification Observer
+"notifyStatusUploadProgress" = "notifyStatusUploadProgress";
+
+//Contact
+
+"name" = "name";
+"profile_image" = "profile_image";
+"birthday" = "birthday";
+"address" = "address";
+"webSite" = "webSite";
+"phoneNumber" = "phoneNumber";
+"emailAddress" = "emailAddress";
+"label" = "label";
+"formattedAddress" = "formattedAddress";
+"Other" = "Other";
+
+
+
+//Parameters
+"ISO" = "ISO";
+"FromUser" = "FromUser";
+
+

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Text-Regular.otf">
+            <string>SFProText-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="65" id="KGk-i7-Jjw" customClass="CommentTableViewCell" customModule="Followal_Task" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="65"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="64.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Jastine John" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8mX-8a-2Vb">
+                        <rect key="frame" x="50" y="10" width="200" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="HLa-qI-07P"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="16"/>
+                        <color key="textColor" red="0.54291307929999999" green="0.29629158970000002" blue="0.92850232119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4 hour ago" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gBv-A4-ndU">
+                        <rect key="frame" x="255.5" y="10" width="56.5" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="SLF-PW-sGA"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="11"/>
+                        <color key="textColor" red="0.57980293035507202" green="0.58025771379470825" blue="0.57987338304519653" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_user_placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="Pde-Y2-vBH">
+                        <rect key="frame" x="15" y="8" width="25" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="1sb-m6-fLJ"/>
+                            <constraint firstAttribute="width" constant="25" id="aWj-3E-vdc"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <real key="value" value="12.5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alarm Module" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NyV-e1-gt8">
+                        <rect key="frame" x="50" y="25" width="255" height="34.5"/>
+                        <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="15"/>
+                        <color key="textColor" red="0.1912863552570343" green="0.19146275520324707" blue="0.19131368398666382" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="8mX-8a-2Vb" firstAttribute="leading" secondItem="Pde-Y2-vBH" secondAttribute="trailing" constant="10" id="0HF-ca-9N6"/>
+                    <constraint firstItem="Pde-Y2-vBH" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="ATj-UO-XOR"/>
+                    <constraint firstItem="NyV-e1-gt8" firstAttribute="top" secondItem="8mX-8a-2Vb" secondAttribute="bottom" id="Bwf-wq-pLT"/>
+                    <constraint firstAttribute="trailing" secondItem="NyV-e1-gt8" secondAttribute="trailing" constant="15" id="D0T-6r-HfY"/>
+                    <constraint firstAttribute="bottom" secondItem="NyV-e1-gt8" secondAttribute="bottom" constant="5" id="EKx-Gu-To0"/>
+                    <constraint firstItem="NyV-e1-gt8" firstAttribute="leading" secondItem="8mX-8a-2Vb" secondAttribute="leading" id="QnS-da-UYK"/>
+                    <constraint firstItem="gBv-A4-ndU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="UOI-Um-9nX"/>
+                    <constraint firstItem="Pde-Y2-vBH" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="aVE-tK-XYF"/>
+                    <constraint firstItem="gBv-A4-ndU" firstAttribute="leading" secondItem="8mX-8a-2Vb" secondAttribute="trailing" constant="5.5" id="idp-61-j6T"/>
+                    <constraint firstItem="8mX-8a-2Vb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="rd0-A6-mGI"/>
+                    <constraint firstAttribute="trailing" secondItem="gBv-A4-ndU" secondAttribute="trailing" constant="8" id="zu1-rU-RR1"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imgUsername" destination="Pde-Y2-vBH" id="Rgb-5y-PtM"/>
+                <outlet property="lblDesc" destination="NyV-e1-gt8" id="5c7-TR-XeI"/>
+                <outlet property="lblHourAgo" destination="gBv-A4-ndU" id="cR3-3Y-bVC"/>
+                <outlet property="lblUserName" destination="8mX-8a-2Vb" id="L0H-1T-o4Y"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="119.53125"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_user_placeholder" width="60" height="60"/>
+    </resources>
+</document>

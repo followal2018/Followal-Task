@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="118" id="jcC-rN-anz" customClass="TaskAssignTableViewCell" customModule="Followal_Task" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="94"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="jcC-rN-anz" id="hCj-Zn-OfK">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="93.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5An-RC-k3s">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="94.5"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_user_placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="24Z-gH-m26">
+                                <rect key="frame" x="10" y="12.5" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="5V6-Cl-ERI"/>
+                                    <constraint firstAttribute="height" constant="70" id="6oK-t8-MkS"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jack Honson" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZHs-aY-zFB">
+                                <rect key="frame" x="92" y="12.5" width="277" height="70"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2f2-Qd-g1L">
+                                <rect key="frame" x="377" y="34" width="27" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27" id="lbs-Mj-5QC"/>
+                                    <constraint firstAttribute="width" constant="27" id="swj-Cp-1U1"/>
+                                </constraints>
+                                <state key="normal" image="ic_add_plus"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="24Z-gH-m26" firstAttribute="top" secondItem="5An-RC-k3s" secondAttribute="top" constant="12" id="3ws-YW-E8G"/>
+                            <constraint firstAttribute="bottom" secondItem="24Z-gH-m26" secondAttribute="bottom" constant="12" id="ERB-dI-Cn8"/>
+                            <constraint firstItem="2f2-Qd-g1L" firstAttribute="leading" secondItem="ZHs-aY-zFB" secondAttribute="trailing" constant="8" id="EoY-ay-VJa"/>
+                            <constraint firstItem="24Z-gH-m26" firstAttribute="leading" secondItem="5An-RC-k3s" secondAttribute="leading" constant="10" id="HcS-qU-4Mn"/>
+                            <constraint firstItem="ZHs-aY-zFB" firstAttribute="leading" secondItem="24Z-gH-m26" secondAttribute="trailing" constant="12" id="Mtt-NC-eJJ"/>
+                            <constraint firstItem="ZHs-aY-zFB" firstAttribute="top" secondItem="5An-RC-k3s" secondAttribute="top" constant="12" id="OEB-U5-ygg"/>
+                            <constraint firstItem="2f2-Qd-g1L" firstAttribute="centerY" secondItem="24Z-gH-m26" secondAttribute="centerY" id="Reu-QF-vGi"/>
+                            <constraint firstAttribute="bottom" secondItem="ZHs-aY-zFB" secondAttribute="bottom" constant="12" id="eqR-IN-jJH"/>
+                            <constraint firstAttribute="trailing" secondItem="2f2-Qd-g1L" secondAttribute="trailing" constant="10" id="oyG-Kz-70d"/>
+                            <constraint firstItem="ZHs-aY-zFB" firstAttribute="centerY" secondItem="24Z-gH-m26" secondAttribute="centerY" id="wu6-lH-Pyc"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="5An-RC-k3s" secondAttribute="bottom" id="QsD-GD-ozs"/>
+                    <constraint firstItem="5An-RC-k3s" firstAttribute="top" secondItem="hCj-Zn-OfK" secondAttribute="top" id="Wo4-lH-0lp"/>
+                    <constraint firstAttribute="trailing" secondItem="5An-RC-k3s" secondAttribute="trailing" id="iCD-4N-NEv"/>
+                    <constraint firstItem="5An-RC-k3s" firstAttribute="leading" secondItem="hCj-Zn-OfK" secondAttribute="leading" id="rPj-nS-MFR"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="btnCancel" destination="2f2-Qd-g1L" id="1Id-Vq-JWk"/>
+                <outlet property="imgUserProfile" destination="24Z-gH-m26" id="AcV-YZ-0JR"/>
+                <outlet property="lblName" destination="ZHs-aY-zFB" id="gAq-zF-6Pa"/>
+            </connections>
+            <point key="canvasLocation" x="130.43478260869566" y="120.20089285714285"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_add_plus" width="22" height="22"/>
+        <image name="ic_user_placeholder" width="60" height="60"/>
+    </resources>
+</document>

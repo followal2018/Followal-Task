@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Text-Regular.otf">
+            <string>SFProText-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="60" id="IFm-G7-pnD" customClass="TaskListHeaderTableViewCell" customModule="Followal_Task" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="IFm-G7-pnD" id="Gy8-zh-Ih4">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="59.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OEH-4O-Kgo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="59.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="APRIL - 2019" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K71-DQ-MYN">
+                                <rect key="frame" x="8" y="12" width="74.5" height="35.5"/>
+                                <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="12"/>
+                                <color key="textColor" red="0.54169559478759766" green="0.54209339618682861" blue="0.54942208528518677" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="1 Overdue" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yau-cY-071">
+                                <rect key="frame" x="94.5" y="12" width="307.5" height="35.5"/>
+                                <fontDescription key="fontDescription" name="SFProText-Regular" family="SF Pro Text" pointSize="12"/>
+                                <color key="textColor" red="0.52156862749999999" green="0.2666666667" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96574753522872925" green="0.96982568502426147" blue="0.98283845186233521" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="K71-DQ-MYN" firstAttribute="top" secondItem="OEH-4O-Kgo" secondAttribute="top" constant="12" id="CfJ-Ja-2GU"/>
+                            <constraint firstAttribute="trailing" secondItem="Yau-cY-071" secondAttribute="trailing" constant="12" id="Ffr-hw-u1B"/>
+                            <constraint firstItem="Yau-cY-071" firstAttribute="top" secondItem="OEH-4O-Kgo" secondAttribute="top" constant="12" id="NZ3-bO-Ixj"/>
+                            <constraint firstItem="Yau-cY-071" firstAttribute="leading" secondItem="K71-DQ-MYN" secondAttribute="trailing" constant="12" id="OiD-CU-OeJ"/>
+                            <constraint firstAttribute="bottom" secondItem="K71-DQ-MYN" secondAttribute="bottom" constant="12" id="XfQ-83-P3e"/>
+                            <constraint firstItem="K71-DQ-MYN" firstAttribute="leading" secondItem="OEH-4O-Kgo" secondAttribute="leading" constant="8" id="pQP-f5-wNn"/>
+                            <constraint firstAttribute="bottom" secondItem="Yau-cY-071" secondAttribute="bottom" constant="12" id="sJm-Vi-Xd0"/>
+                            <constraint firstItem="Yau-cY-071" firstAttribute="centerY" secondItem="K71-DQ-MYN" secondAttribute="centerY" id="zK4-tS-ES1"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="OEH-4O-Kgo" secondAttribute="bottom" id="AWE-vC-3B1"/>
+                    <constraint firstItem="OEH-4O-Kgo" firstAttribute="leading" secondItem="Gy8-zh-Ih4" secondAttribute="leading" id="hT0-er-4wW"/>
+                    <constraint firstAttribute="trailing" secondItem="OEH-4O-Kgo" secondAttribute="trailing" id="htp-fM-MdG"/>
+                    <constraint firstItem="OEH-4O-Kgo" firstAttribute="top" secondItem="Gy8-zh-Ih4" secondAttribute="top" id="kGO-Hd-kup"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="lblDatePhrase" destination="K71-DQ-MYN" id="u7r-3f-pSf"/>
+                <outlet property="lblOverdueCount" destination="Yau-cY-071" id="emo-bk-RzF"/>
+            </connections>
+            <point key="canvasLocation" x="149.27536231884059" y="125.22321428571428"/>
+        </tableViewCell>
+    </objects>
+</document>

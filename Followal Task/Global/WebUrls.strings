@@ -1,0 +1,43 @@
+/*
+ WebUrls.strings
+ followal
+ 
+ Created by Vivek Gadhiya on 17/01/19.
+ Copyright © 2019 Vivek Gadhiya. All rights reserved.
+ */
+
+//dev url
+"baseURL" = "http://192.168.0.161:3006/api/v1/";
+"hostURL" = "https://jobsfollowal.s3.ap-south-1.amazonaws.com/";
+
+//live url
+//"baseURL" = "https://api.followal.com/api/v1/";
+//"hostURL" = "https://jobsfollowal.s3.ap-south-1.amazonaws.com/";
+
+//"privacyURL" = "http://followal.com/privacy-policy-2/";
+//"termsAndConditionURL" = "http://followal.com/followal-terms-and-conditions/";
+
+"termsAndConditionURL" = "http://followal.com/terms-and-conditions/";
+"privacyURL" = "http://followal.com/privacy-policy/";
+
+//Socket Events
+"socketRegister" = "SocketRegister";
+
+
+
+//Privacy Policy
+"PrivacyPolicy" = "https://static.googleusercontent.com/media/www.google.com/en//intl/en/policies/privacy/google_privacy_policy_en.pdf";
+
+
+//File Upload URL
+"fileUploadURL" = "upload";
+
+//Authentication
+"registerURL" = "signup";
+"CreateFolder" = "CreateFolder";
+"Login" = "Login";
+"MyFolderList" = "MyFolderList";
+"CreateTask" = "CreateTask";
+"MyGroupUser" = "MyGroupUser";
+"MyTaskList" = "MyTaskList";
+"UpdateTask" = "UpdateTask";

@@ -1,0 +1,422 @@
+/* 
+  Localizable.strings
+  PMR
+
+ //  Created by Gadhiya Vivek on 23/01/19.
+ //  Copyright © 2019 Vivek Gadhiya. All rights reserved.
+ //
+*/
+
+
+"pleaseCheckInternet" = "Please check your internet connection";
+"somethingWentWrong" = "Something went wrong";
+
+"logoutMessage" = "Are you sure? \n You want to logout?";
+
+//Authentication
+"Male" = "Male";
+"Female" = "Female";
+
+//Chat
+"contacts" = "Contacts";
+"Write something here..." = "Write something here...";
+"Media" = "Media";
+"Yesterday" = "Yesterday";
+"Today" = "Today";
+"Select Contacts" = "Select Contacts";
+"Contact Selected" = "Contact Selected";
+"Send contacts" = "Selected contacts";
+"Send contact" = "Selected contact";
+"Invite" = "Invite";
+"View all" = "View all";
+"Message" = "Message";
+"Add contact" = "Add contact";
+"Online" = "Online";
+"Searching ..." =  "Searching ...";
+"Typing..." = "Typing...";
+"Replying..." = "Replying...";
+"Downloding..." = "Downloding...";
+"New Contact" = "New Contact";
+"Add to Existing Contact" = "Add to Existing Contact";
+"Last Seen" = "Last Seen";
+"Photos" = "Photos";
+"Search" = "Search";
+"Chats" = "Chats";
+"Other Contacts" = "Other Contacts";
+"Messages" = "Messages";
+"Chat" = "CHAT";
+"Near Chat" = "NEAR CHAT";
+"Done" = "Done";
+"DONE" = "DONE";
+"Add All" = "Add All";
+"Send" = "Send";
+"Search Results" = "Search Results";
+"Delete" = "Delete";
+
+"Gallery" = "Gallery";
+"Camera" = "Camera";
+"Contact" = "Contact";
+"Documents" = "Documents";
+"Audio" = "Audio";
+"Location" = "Location";
+"Payment" = "Payment";
+"Cancel" = "Cancel";
+"Unblock" = "Unblock";
+"Blocked Users" = "Blocked Users";
+"Select" = "Select";
+"Interview Invite" = "Interview Invite";
+"Send Resume" = "Send Resume";
+//Status
+"Status" = "Status";
+
+//Job
+"Choose option" = "Choose option";
+"page" = "page";
+"BECOME AS RECRUITER" = "BECOME AS RECRUITER";
+"BECOME AS CANDIDATE" = "BECOME AS CANDIDATE";
+"Message Template" = "Message Template";
+"Edit Company" = "Edit Company";
+"Message Template" = "Message Template";
+"Interview Time Availability" = "Interview Time Availability";
+"Fresher" = "Fresher";
+
+//Tab
+"CALENDAR" = "CALENDAR";
+
+//Task
+"Enter here" = "Enter here";
+"Edit" = "Edit";
+"Delete" = "Delete";
+"End Time" = "End Time";
+"Start Time" = "Start Time";
+"Update" = "Update";
+
+//App Info
+"Looks like you have an older version of the app.\nPlease update to get latest Features and best experience." = "Looks like you have an older version of the app.\nPlease update to get latest Features and best experience.";
+"REMIND LATER" = "REMIND LATER";
+"UPDATE NOW" = "UPDATE NOW";
+"New version available!" = "New version available!";
+
+//Error Message
+"Please enter correct OTP" = "Please enter correct OTP";
+"Please enter verification code sent to" = "Please enter verification code sent to";
+"Message deleted successfully." = "Message deleted successfully.";
+"Messages deleted successfully." = "Messages deleted successfully.";
+"Message bookmark successfully." = "Message bookmark successfully.";
+"Message unbookmark successfully." ="Message unbookmark successfully.";
+"Messages bookmark successfully." = "Messages bookmark successfully.";
+"Message copied successfully." = "Message copied successfully.";
+"Cropped video was successfully saved" = "Cropped video was successfully saved";
+"This message was deleted" = "This message was deleted";
+"Error occurred" = "Error occurred";
+"disabled self-distruct timer" = "disabled self-distruct timer";
+"Cannot save video." = "Cannot save video.";
+"Cannot save picture." = "Cannot save picture.";
+"Can't access contact" = "Can't access contact";
+"Please go to Settings -> MyApp to enable contact permission" = "Please go to Settings -> MyApp to enable contact permission";
+"After changing current role all data will be deleted permanently ! Do you want to change your role from Candidate to Recruiter ?" = "After changing current role all data will be deleted permanently ! Do you want to change your role from Candidate to Recruiter ?";
+"Become Recruiter" = "Become Recruiter";
+"After changing current role all data will be deleted permanently ! Do you want to change your role from Recruiter to Candidate ?" = "After changing current role all data will be deleted permanently ! Do you want to change your role from Recruiter to Candidate ?";
+"Become Candidate" = "Become Candidate";
+"Do you want to delete this job post ?" = "Do you want to delete this job post ?";
+"Last activated resume will be deactivated automatically. Continue ?"= "Last activated resume will be deactivated automatically. Continue ?";
+"Do you want to delete this resume ?" = "Do you want to delete this resume ?";
+"set self-distruct timer to" = "set self-distruct timer to";
+"Please enter verification code sent to" = "Please enter verification code sent to";
+"You can't delete last free job." = "You can't delete last free job.";
+"Please make sure that your one resume should be active for sending it to company" = "Please make sure that your one resume should be active for sending it to company";
+//Group
+"Group name can't be empty." = "Group name can't be empty.";
+"Dismiss from admin" = "Dismiss from admin";
+"Make" = "Make";
+"as Admin" = "as Admin";
+"Please enter group title" = "Please enter group title";
+"Please enter group description" = "Please enter group description";
+"You have to select atleast 2 contact to create group" = "You have to select atleast 2 contact to create group";
+"You have to select atleast 1 contact to add in group" = "You have to select atleast 1 contact to add in group";
+"Couldn't add" = "Couldn't add";
+"to this group." = "to this group.";
+"Select Profile picture" = "Select Profile picture";
+"You created group" = "You created group";
+"created group" = "created group";
+"You added" = "You added";
+"You removed" = "You removed";
+"You have made" = "You have made";
+"as an admin" = "as an admin";
+"You have removed" = "You have removed";
+"from the admin" = "from the admin";
+"You left" = "You left";
+"as an super admin" = "as an super admin";
+"You had changed the group icon" = "You had changed the group icon";
+"You had changed the group name" = "You had changed the group name";
+"You had changed the group description" = "You had changed the group description";
+
+
+"added" = "added";
+"removed" = "removed";
+"has made" = "has made";
+"removed" = "removed";
+"left" = "left";
+"has change group icon" = "has change group icon";
+"has change group name from" = "has change group name from";
+"to"= "to";
+"has change group decscription" = "has change group decscription";
+
+"you have change mobile number" = "you have change mobile number";
+
+"changed to" = "changed to";
+
+"to add this new number in contact tap on message" = "to add this new number in contact tap on message";
+"No result found for searched criteria" = "No result found for searched criteria";
+//Interview
+"Please select interview date" = "Please select interview date";
+"Please select interview duration" = "Please select interview duration";
+"Please select auto interval time" = "Please select auto interval time";
+"Interview Time" = "Interview Time";
+"Interview Duration" = "Interview Duration";
+"Auto Interval" = "Auto Interval";
+"Date" = "Date";
+"Time" = "Time";
+
+//Templete
+"Please enter template Message" = "Please enter template Message";
+"Share Resume Also" = "Share Resume Also";
+"Share Contact Number" = "Share Contact Number";
+"Please enter template name" = "Please enter template name";
+//Resume
+"Please enter full name" = "Please enter full name";
+"Please enter valid email" = "Please enter valid email";
+"Please enter username" = "Please enter username";
+"Please select gender" = "Please select gender";
+"Please select Birth date" = "Please select Birth date";
+"Please select Marital Status" = "Please select Marital Status";
+"Please enter valid mobile number" = "Please enter valid mobile number";
+"Please enter company name" = "Please enter company name";
+"Please enter designation" = "Please enter designation";
+"Please enter duration" = "Please enter duration";
+"Please select company address" = "Please select company address";
+
+
+"Select Image" = "Select Image";
+"Birth Date" = "Birth Date";
+
+
+//Award
+"Please enter award name" = "Please enter award name";
+"Please enter award year" = "Please enter award year";
+
+//Job Detail
+"Please select industry" = "Please select industry";
+"Please select designation" = "Please select designation";
+"Please select skills" = "Please select skills";
+"Please enter expected salary" ="Please enter expected salary";
+"Please select work experience" = "Please select work experience";
+"Please select Required area or city" = "Please select Required area or city";
+"Please select language" = "Please select language";
+"Please select industry first" = "Please select industry first";
+"Please select job location" = "Please select job location";
+"Please enter post title" = "Please enter post title";
+"Please select job type" = "Please select job type";
+"Please select experience" = "Please select experience";
+"Please select number of opening" = "Please select number of opening";
+"Please enter minimum salary" = "Please enter minimum salary";
+"Please enter maximum salary" = "Please enter maximum salary";
+"Please select gender of candiate" = "Please select gender of candiate";
+"Please enter contact person name" = "Please enter contact person name";
+"Please make sure that experience range should be valid (Low to High)" = "Please make sure that experience range should be valid (Low to High)";
+"Please make sure that salary range should be valid (Low to High)" = "Please make sure that salary range should be valid (Low to High)";
+//Opening Hours
+
+"Openning Hours" = "Openning Hours";
+"Monday" = "Monday";
+"Tuesday" = "Tuesday";
+"Wednesday" = "Wednesday";
+"Thursday"= "Thursday";
+"Friday" = "Friday";
+"Saturday" = "Saturday";
+"Sunday" = "Sunday";
+"Off" = "Off";
+"Seconds" = "Seconds";
+"Minutes" = "Minutes";
+"Hours" = "Hours";
+"Hour" = "Hour";
+"Days" = "Days";
+"Select Date & Time" = "Select Date & Time";
+"Location" = "Location";
+"Year" = "Year";
+"Month" = "Month";
+"Years" = "Years";
+//Settings
+"Message Settings" = "Message Settings";
+"Group Settings" = "Group Settings";
+"Detail" = "Detail";
+//Chat
+"Last updated just now" = "Last updated just now";
+"Last updated at" = "Last updated at";
+"ago" = "ago";
+"Sending" = "Sending";
+"RECENT" = "RECENT";
+"WHO CAN SEE YOUR LAST SEEN?" = "WHO CAN SEE YOUR LAST SEEN?";
+"Only share with" = "Only share with";
+"Never share with" = "Never share with";
+
+//Location
+
+"Could not find places" = "Could not find places";
+"Hide near by place" = "Hide near by place";
+"Click to see nearby places" = "Click to see nearby places";
+"OK" = "OK";
+"Yes" = "Yes";
+"No" = "No";
+"Done" = "Done";
+"Save" = "Save";
+"Refresh" = "Refresh";
+
+
+//Titles
+"Inbox" = "Inbox";
+"Bookmarks" = "Bookmarks";
+"My Story" = "My Story";
+"saved" = "saved";
+"Create" = "Create";
+"New Contacts" = "New Contacts";
+"Setting" = "Setting";
+"EDUCATION" = "EDUCATION";
+"CONNECT" = "CONNECT";
+"AWARDS" = "AWARDS";
+"PROJECTS" = "PROJECTS";
+"JOB DETAILS" = "JOB DETAILS";
+"RESUME" = "RESUME";
+"CANDIDATES" = "CANDIDATES";
+"Select Date & Time" = "Select Date & Time";
+"INTERVIEW"= "INTERVIEW";
+"Time Availability" = "Time Availability";
+"Choose option" = "Choose option";
+"Jobs" = "Jobs";
+"JOB DETAILS" = "JOB DETAILS";
+"Edit Post" = "Edit Post";
+"Create Free Post" = "Create Free Post";
+"JOB DETAILS" = "JOB DETAILS";
+"Company Detail" = "Company Detail";
+"JOBS" = "JOBS";
+"Filter" = "Filter";
+"Profile" = "Profile";
+"Info" = "Info";
+"Settings" = "Settings";
+"Group Name" ="Group Name";
+"Description" = "Description";
+"Group Info" = "Group Info";
+"Members" = "Members";
+"Invite Link" = "Invite Link";
+"New Group" = "New Group";
+
+
+
+
+//Button Titles
+"Sign In" = "Sign In";
+"Sign Up" = "Sign Up";
+"Add Items" = "Add Items";
+"Re-Order" = "Re-Order";
+"Add More" = "Add More";
+"Skip" = "Skip";
+"SAVE" = "SAVE";
+"NEXT" = "NEXT";
+"SKIP" = "SKIP";
+"FINISH" = "FINISH";
+"Report" = "Report";
+"Report & Exit" = "Report & Exit";
+"Send" = "Send";
+
+//Resume
+"CREATE RESUME" = "CREATE RESUME";
+"EXPERIENCE DETAILS" = "EXPERIENCE DETAILS";
+"Select Template" = "Select Template";
+
+"Hi, there use Followal app." = "Hi, there use Followal app.";
+"You" = "You";
+"Can't send mail" = "Can't send mail";
+"Can't send invite" = "Can't send invite";
+"Voice Call from" = "Voice Call from";
+"Video Call from" = "Video Call from";
+"No found" = "No found";
+
+
+//Task
+"Overdue" = "Overdue";
+"Task" = "Task";
+"Folder" = "Folder";
+"ALERT TONES" = "ALERT TONES";
+"CLASSIC" = "CLASSIC";
+
+
+//Time
+
+"years ago" = "years ago";
+"year ago" = "year ago";
+"Last year" = "Last year";
+"months ago" = "months ago";
+"month ago" = "month ago";
+"Last month" = "Last month";
+"weeks ago" = "weeks ago";
+"week ago" = "week ago";
+"Last week" = "Last week";
+"days ago" = "days ago";
+"day ago" = "day ago";
+"Yesterday" = "Yesterday";
+"hours ago" = "hours ago";
+"hour ago" = "hour ago";
+"An hour ago" = "An hour ago";
+"minutes ago" = "minutes ago";
+"minute ago" = "minute ago";
+"A minute ago" = "A minute ago";
+"seconds ago" = "seconds ago";
+"Just now" = "Just now";
+
+//Login, register
+"Remove Photo" = "Remove Photo";
+"Please Enter Name" = "Please Enter Name";
+"Please select birthdate" = "Please select birthdate";
+"Please select gender" = "Please select gender";
+"Enter your details" = "Enter your details";
+"Your location service is disabled. Please turn On" = "Your location service is disabled. Please turn On";
+"Not Now" = "Not Now";
+"Settings" = "Settings";
+"Credit Left " = "Credit Left ";
+
+
+//Task
+"Set assign reminder" = "Set assign reminder";
+"Repeat" = "Repeat";
+"Daily" = "Daily";
+"Day" = "Day";
+"Week" = "Week";
+"Add Task" = "Add Task";
+"Edit Task" = "Edit Task";
+"Update Task" = "Update Task";
+
+"Assign User" = "Assign User";
+"Reviewer" = "Reviewer";
+"Supporter" = "Supporter";
+"Add User" = "Add User";
+"Sound" = "Sound";
+
+//Call
+"Could not able to connect to dialed number" = "Could not able to connect dialed number";
+
+
+//Job templete
+"Please enter message" = "Please enter message";
+
+
+//Interview Invitation
+"Interview Invitation Request" = "   Interview Invitation Request";
+"Interview Invitation Accepted" = "   Interview Invitation Accepted";
+"Interview Invitation Rejected" = "   Interview Invitation Rejected";
+"Interview Invitation Canceled" = "   Interview Invitation Canceled";
+"Interview Invitation Confirmed" = "   Interview Invitation Confirmed";
+"Interview Invitation Rejected" = "   Interview Invitation Rejected";
+"All interview already scheduled" = "All interview already scheduled";
+"You can select only 4 photos" = "You can select only 4 photos";
+
+"Are you sure you want to cancel sending interview invitation request?" = "Are you sure you want to cancel sending interview invitation request?";

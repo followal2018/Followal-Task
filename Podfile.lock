@@ -1,0 +1,297 @@
+PODS:
+  - ActiveLabel (1.1.0)
+  - Alamofire (4.8.2)
+  - Alamofire-SwiftyJSON (3.0.0):
+    - Alamofire (~> 4.5)
+    - SwiftyJSON (~> 4.0.0)
+  - ARSLineProgress (3.1.0)
+  - CarbonKit (2.3.0)
+  - CodableAlamofire (1.1.1):
+    - Alamofire (~> 4.0)
+  - CropViewController (2.5.1)
+  - CryptoSwift (1.0.0)
+  - DKCamera (1.6.4)
+  - DKImagePickerController (4.1.5):
+    - DKImagePickerController/Camera (= 4.1.5)
+    - DKImagePickerController/Core (= 4.1.5)
+    - DKImagePickerController/ImageDataManager (= 4.1.5)
+    - DKImagePickerController/InlineCamera (= 4.1.5)
+    - DKImagePickerController/PhotoEditor (= 4.1.5)
+    - DKImagePickerController/PhotoGallery (= 4.1.5)
+    - DKImagePickerController/Resource (= 4.1.5)
+  - DKImagePickerController/Camera (4.1.5):
+    - DKCamera
+    - DKImagePickerController/Core
+  - DKImagePickerController/Core (4.1.5):
+    - DKImagePickerController/ImageDataManager
+    - DKImagePickerController/Resource
+  - DKImagePickerController/ImageDataManager (4.1.5)
+  - DKImagePickerController/InlineCamera (4.1.5):
+    - DKCamera
+    - DKImagePickerController/Core
+  - DKImagePickerController/PhotoEditor (4.1.5):
+    - CropViewController (~> 2.4)
+    - DKImagePickerController/Core
+  - DKImagePickerController/PhotoGallery (4.1.5):
+    - DKImagePickerController/Core
+    - DKPhotoGallery
+  - DKImagePickerController/Resource (4.1.5)
+  - DKPhotoGallery (0.0.13):
+    - DKPhotoGallery/Core (= 0.0.13)
+    - DKPhotoGallery/Model (= 0.0.13)
+    - DKPhotoGallery/Preview (= 0.0.13)
+    - DKPhotoGallery/Resource (= 0.0.13)
+    - SDWebImage
+    - SDWebImageFLPlugin
+  - DKPhotoGallery/Core (0.0.13):
+    - DKPhotoGallery/Model
+    - DKPhotoGallery/Preview
+    - SDWebImage
+    - SDWebImageFLPlugin
+  - DKPhotoGallery/Model (0.0.13):
+    - SDWebImage
+    - SDWebImageFLPlugin
+  - DKPhotoGallery/Preview (0.0.13):
+    - DKPhotoGallery/Model
+    - DKPhotoGallery/Resource
+    - SDWebImage
+    - SDWebImageFLPlugin
+  - DKPhotoGallery/Resource (0.0.13):
+    - SDWebImage
+    - SDWebImageFLPlugin
+  - DropDown (2.3.13)
+  - EMSpinnerButton (1.0.0)
+  - FLAnimatedImage (1.0.12)
+  - GoogleSignIn (4.0.2):
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - "GoogleToolboxForMac/NSString+URLArguments (~> 2.1)"
+    - GTMOAuth2 (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.2.1):
+    - GoogleToolboxForMac/Defines (= 2.2.1)
+  - GoogleToolboxForMac/Defines (2.2.1)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.2.1)":
+    - GoogleToolboxForMac/DebugUtils (= 2.2.1)
+    - GoogleToolboxForMac/Defines (= 2.2.1)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.2.1)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.2.1)"
+  - GTMOAuth2 (1.1.6):
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.2.2):
+    - GTMSessionFetcher/Full (= 1.2.2)
+  - GTMSessionFetcher/Core (1.2.2)
+  - GTMSessionFetcher/Full (1.2.2):
+    - GTMSessionFetcher/Core (= 1.2.2)
+  - IQKeyboardManagerSwift (6.4.1)
+  - KMPlaceholderTextView (1.4.0)
+  - KSPhotoBrowser (0.3.0):
+    - SDWebImage (~> 5.0)
+  - MaterialComponents/AnimationTiming (85.12.0)
+  - MaterialComponents/Buttons (85.12.0):
+    - MaterialComponents/Elevation
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/Ripple
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Shapes
+    - MaterialComponents/Typography
+    - MDFInternationalization
+    - MDFTextAccessibility
+  - MaterialComponents/Elevation (85.12.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/Ink (85.12.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/OverlayWindow (85.12.0):
+    - MaterialComponents/private/Application
+  - MaterialComponents/private/Application (85.12.0)
+  - MaterialComponents/private/Color (85.12.0)
+  - MaterialComponents/private/KeyboardWatcher (85.12.0):
+    - MaterialComponents/private/Application
+  - MaterialComponents/private/Math (85.12.0)
+  - MaterialComponents/private/Overlay (85.12.0)
+  - MaterialComponents/Ripple (85.12.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/ShadowElevations (85.12.0)
+  - MaterialComponents/ShadowLayer (85.12.0):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/Shapes (85.12.0):
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowLayer
+  - MaterialComponents/Snackbar (85.12.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Buttons
+    - MaterialComponents/Elevation
+    - MaterialComponents/OverlayWindow
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/KeyboardWatcher
+    - MaterialComponents/private/Math
+    - MaterialComponents/private/Overlay
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Typography
+  - MaterialComponents/Typography (85.12.0):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+  - MDFInternationalization (2.0.0)
+  - MDFTextAccessibility (2.0.0)
+  - ObjectMapper (3.5.1)
+  - R.swift (5.0.3):
+    - R.swift.Library (~> 5.0.0)
+  - R.swift.Library (5.0.1)
+  - ReachabilitySwift (4.3.1)
+  - Realm (3.17.3):
+    - Realm/Headers (= 3.17.3)
+  - Realm/Headers (3.17.3)
+  - RealmSwift (3.17.3):
+    - Realm (= 3.17.3)
+  - RxCocoa (4.5.0):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxReachability (0.1.8):
+    - ReachabilitySwift (~> 4.3.0)
+    - RxCocoa (~> 4)
+    - RxSwift (~> 4)
+  - RxRealm (0.7.6):
+    - RealmSwift (~> 3.0)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.5.0)
+  - SDWebImage (5.0.6):
+    - SDWebImage/Core (= 5.0.6)
+  - SDWebImage/Core (5.0.6)
+  - SDWebImageFLPlugin (0.3.0):
+    - FLAnimatedImage (>= 1.0.11)
+    - SDWebImage/Core (~> 5.0)
+  - Socket.IO-Client-Swift (15.1.0):
+    - Starscream (~> 3.1)
+  - Starscream (3.1.0)
+  - SwiftyJSON (4.0.0)
+  - TPKeyboardAvoiding (1.3.2)
+
+DEPENDENCIES:
+  - ActiveLabel
+  - Alamofire (~> 4.0)
+  - Alamofire-SwiftyJSON
+  - ARSLineProgress (~> 3.1)
+  - CarbonKit
+  - CodableAlamofire
+  - CryptoSwift
+  - DKImagePickerController
+  - DropDown
+  - EMSpinnerButton
+  - GoogleSignIn (~> 4.0.0)
+  - IQKeyboardManagerSwift (from `https://github.com/hackiftekhar/IQKeyboardManager`)
+  - KMPlaceholderTextView (~> 1.4)
+  - KSPhotoBrowser (~> 0.3)
+  - MaterialComponents/Snackbar
+  - ObjectMapper
+  - R.swift
+  - ReachabilitySwift
+  - RealmSwift (~> 3.0)
+  - RxCocoa (~> 4.0)
+  - RxReachability
+  - RxRealm
+  - RxSwift (~> 4.0)
+  - SDWebImage (~> 5.0)
+  - Socket.IO-Client-Swift
+  - TPKeyboardAvoiding (~> 1.3)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ActiveLabel
+    - Alamofire
+    - Alamofire-SwiftyJSON
+    - ARSLineProgress
+    - CarbonKit
+    - CodableAlamofire
+    - CropViewController
+    - CryptoSwift
+    - DKCamera
+    - DKImagePickerController
+    - DKPhotoGallery
+    - DropDown
+    - EMSpinnerButton
+    - FLAnimatedImage
+    - GoogleSignIn
+    - GoogleToolboxForMac
+    - GTMOAuth2
+    - GTMSessionFetcher
+    - KMPlaceholderTextView
+    - KSPhotoBrowser
+    - MaterialComponents
+    - MDFInternationalization
+    - MDFTextAccessibility
+    - ObjectMapper
+    - R.swift
+    - R.swift.Library
+    - ReachabilitySwift
+    - Realm
+    - RealmSwift
+    - RxCocoa
+    - RxReachability
+    - RxRealm
+    - RxSwift
+    - SDWebImage
+    - SDWebImageFLPlugin
+    - Socket.IO-Client-Swift
+    - Starscream
+    - SwiftyJSON
+    - TPKeyboardAvoiding
+
+EXTERNAL SOURCES:
+  IQKeyboardManagerSwift:
+    :git: https://github.com/hackiftekhar/IQKeyboardManager
+
+CHECKOUT OPTIONS:
+  IQKeyboardManagerSwift:
+    :commit: 3f31c45feae664bcd81615796ab444e1ff450d54
+    :git: https://github.com/hackiftekhar/IQKeyboardManager
+
+SPEC CHECKSUMS:
+  ActiveLabel: 5e3f4de79a1952d4604b845a0610d4776e4b82b3
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  Alamofire-SwiftyJSON: 2b3649d57dc7bb2880fb8b86f8bb969397666916
+  ARSLineProgress: 60778657c69491796c3faf5b834c72924c405833
+  CarbonKit: fbbf0809ab18b33817a09da2591fc7ee9be7b17c
+  CodableAlamofire: b587c1198562824abb1f468aed34feb00d6cecd8
+  CropViewController: 10ba7af75e302f2db7eb913f8aa1156f95cfe88e
+  CryptoSwift: d81eeaa59dc5a8d03720fe919a6fd07b51f7439f
+  DKCamera: 61fa47629a39354e5111bca1fe96695de020dcb9
+  DKImagePickerController: 58d6c4b316ac9bfcf6f7259866ef36cc3d985352
+  DKPhotoGallery: ce7c1f629450dd07048aa30310319953785857a7
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  EMSpinnerButton: edcf72c6a9809a7ede3f6e0696a7c7b38ca8180d
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  GoogleSignIn: d7ad83f13480e1f30453471d00d19b5293ac46af
+  GoogleToolboxForMac: b3553629623a3b1bff17f555e736cd5a6d95ad55
+  GTMOAuth2: e8b6512c896235149df975c41d9a36c868ab7fba
+  GTMSessionFetcher: 61bb0f61a4cb560030f1222021178008a5727a23
+  IQKeyboardManagerSwift: 79f5657bc027af3eaa10ad9d921fd78ec707841c
+  KMPlaceholderTextView: 2206c3df39979e9396e2d96fa9f427a8951121b0
+  KSPhotoBrowser: 556fc4c4880e04a87b5990ab13cdc08d8478d40e
+  MaterialComponents: 2faa36425ad1cdeca6a2595efe4cf48fce3618c7
+  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
+  MDFTextAccessibility: 85c09a1bd9c321f494348e632a25063bcda35a53
+  ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
+  R.swift: f5a87643b91ea569d23d6afb3eee9c743edde239
+  R.swift.Library: cfe85d569d9bae6cb262922db130e7c3a7a5fad1
+  ReachabilitySwift: 4032e2f59586e11e3b0ebe15b167abdd587a388b
+  Realm: 5a1d9d47bfc101dd597668b1a8af4288a2557f6d
+  RealmSwift: b7fdc2d18616621c31df5c7a398a45a2163f8eb0
+  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
+  RxReachability: 053f2d913db44998242ade488ccaef558f3ce7cb
+  RxRealm: 5379eddd74f8d617ca7681d1f8d144af25b432b0
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  SDWebImage: 920f1a2ff1ca8296ad34f6e0510a1ef1d70ac965
+  SDWebImageFLPlugin: cf3f4ae49f249dd785129346fd61bbc8433a88cf
+  Socket.IO-Client-Swift: 7cb44c0ffb86e158cee32d0642d30ec5fdcf8f61
+  Starscream: 08172b481e145289c4930cb567230fb55897cfa4
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  TPKeyboardAvoiding: cb69d5ddbe90ce0170e4bc2db1e5e41d4a3ad9a4
+
+PODFILE CHECKSUM: 7858c35cd0204ca20d0d15616d2031aadfde7bad
+
+COCOAPODS: 1.7.3
